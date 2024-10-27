@@ -1,0 +1,8 @@
+version: 1
+services:
+  web:
+    image: nodejs_20
+    env:
+      PORT: 3000
+    buildScript: npm ci && npm run build
+    startCommand: npm run start

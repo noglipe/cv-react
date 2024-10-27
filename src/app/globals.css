@@ -9,8 +9,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #e8e4e4;
+    --foreground: #151515;
+    --destaques: #eba01c;
   }
 }
 
@@ -18,4 +19,5 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+
 }
